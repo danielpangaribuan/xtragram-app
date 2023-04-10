@@ -28,7 +28,7 @@ function Users({ keyword }) {
   const handlerListUser = useMemo(() => {
     let arr = [];
     if (data.length) {
-      data.map((v, i) => {
+      data.forEach((v, i) => {
         arr.push(
           <div
             key={`list-user-${i}`}

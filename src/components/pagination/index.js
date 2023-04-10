@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import ReactPaginate from "react-paginate";
 import { ic_keyboard_arrow_left } from "react-icons-kit/md/ic_keyboard_arrow_left";
 import { ic_keyboard_arrow_right } from "react-icons-kit/md/ic_keyboard_arrow_right";
